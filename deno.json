@@ -1,0 +1,16 @@
+{
+    "tasks": {
+      "start": "deno run --allow-net --allow-read src/app.ts"
+    },
+    "fmt": {
+      "options": {
+        "lineWidth": 80,
+        "indentWidth": 2
+      }
+    },
+    "imports": {
+      "oak": "https://deno.land/x/oak/mod.ts",
+      "deno_postgres": "https://deno.land/x/postgres/mod.ts"
+    }
+  }
+  
